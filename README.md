@@ -10,7 +10,7 @@ This is a working social network API. It allows new visitors to create a user. I
 
 ## Technologies
 
-I used JavaScript, Node, MongoDB, Mongoose, and Insomnia.
+I used JavaScript, Node, MongoDB, Mongoose, Express, and Insomnia.
 
 ## Install
 
@@ -30,6 +30,15 @@ After the server is running, you will be able to run all of the test routes to b
 
 
 
+
+https://github.com/user-attachments/assets/cf84d500-7c42-4fd0-9c35-d3440b562c0b
+
+
+
+
+
+
+https://github.com/user-attachments/assets/01d0b419-d7de-4b0e-914c-872d516ab483
 
 
 

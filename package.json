@@ -4,8 +4,8 @@
   "description": "A social network API built with Express and MongoDB",
   "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Dominic",
   "license": "ISC",

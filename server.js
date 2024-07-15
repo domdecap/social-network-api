@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require('./config/connection');
+const db = require('./config/connection'); // Ensure this is correct
 const routes = require('./routes');
 
 const PORT = process.env.PORT || 3001;
@@ -11,6 +11,6 @@ app.use(routes);
 
 db.once('open', () => {
     app.listen(PORT, () => {
-        console.log('Server now listening on port ${PORT}')
+        console.log(`Server now listening on port ${PORT}`);
     });
 });

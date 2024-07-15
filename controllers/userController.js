@@ -1,4 +1,4 @@
-const { Thought, User } = requires('../models')
+const { Thought, User } = require('../models')
 
 module.exports = {
     async getUsers(req, res) {
@@ -39,7 +39,7 @@ module.exports = {
         }
     },
 
-    async updateUser(res, res) {
+    async updateUser(req, res) {
         try {
             const updateUser = await User.findOneAndUpdate(
                 { _id: req.params.userId },
